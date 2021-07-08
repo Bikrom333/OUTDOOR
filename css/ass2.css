@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,a,input,button,span,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+}
+a{
+	text-decoration: none;
+}
+.Container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/***********************
+ header section css code
+************************/
+
+.header{
+	padding: 16px 0px;
+	background: url(../image/bridge.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+
+
+}
+
+.nevdbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-item2 ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 15px;
+}
+
+.menu-item2 ul li a{
+	color: #fff6de;
+	font-size: 20px;
+}
+
+.bob{
+	border-color: #fff6de;
+	color: #fff6de;
+	background: transparent;
+	border-radius: 25px;
+	border: 1px solid #fff6de;
+	font-size: 20px;
+	margin-left: 12px;
+	width: 140px;
+    height: 45px;
+    cursor: pointer;
+
+}
+
+.bobo2{
+	padding: 200px 0px;
+	text-align: center;
+}
+
+.bobo2 h3{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.bobo2 h1{
+	font-size: 52px;
+	color: #ffffff;
+	margin-bottom: 30px;
+
+}
+.bob2{
+	border-color: #fff6de;
+	color: white;
+	background: red;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border: none;
+	width: 170px;
+    height: 55px;
+    cursor: pointer;
+
+
+}
+.line{
+	width: 3%;
+	height: 3px;
+	margin-top: 10px;
+	background: #FB2056;
+	margin: 10px auto;
+}
+
+
+.fopter{
+	background: #f4f5f9;
+	padding: 50px 0px;
+	text-align: center;
+	color: #936963;
+
+}
+
+.copyright{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/***********************
+ project section css code
+************************/
+
+
+.project{
+	padding: 90px 0px;
+}
+
+.project-text{
+	text-align: center;
+}
+
+.project-text h1{
+	font-size: 30px;
+	color: black;
+}
+
+.line{
+	width: 3%;
+	height: 3px;
+	margin-top: 10px;
+	background: #FB2056;
+	margin: 10px auto;
+}
+
+
+/***********************
+ project2 section css code
+************************/
+
+
+.project2-item{
+	display: flex;
+	margin: 0px 30px;
+}
+
+.proj1, .proj2{
+	margin: 20px;
+	
+}
+.project2-item .proj1 .imgg:hover{
+	transition: .8s;
+	cursor: pointer;
+	box-shadow: 14px 14px 20px 14px rgb(0 0 0 / 30%);
+}
+.project2-item img{
+	width: 500px;
+	box-shadow: 14px 14px 20px 14px rgb(0 0 0 / 30%);
+}
+
+.project2-item .proj2 .imgg2:hover{
+	transition: .8s;
+	cursor: pointer;
+	box-shadow: 14px 14px 20px 14px rgb(0 0 0 / 30%);
+}
+
+.project2-item h3{
+	text-align: center;
+	margin: 40px 10px 10px 10px;
+}
+.project2-item p{
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.proj1 h4{
+	text-align: center;
+	color: red;
+	margin-top: 20px;
+}
+
+.proj2 h4{
+	text-align: center;
+	color: red;
+	margin-top: 20px;
+} 
+
+
+a{
+	text-decoration: none;
+}
+
+/***********************
+ header2 section css code
+************************/
+
+.header2{
+	padding: 20px 0px;
+	background: url(../image/sunset.jpg);
+   background-size: cover;
+   background-position: center;
+   padding-bottom: 500px;
+   margin-top: 100px;
+}
+
+.line2{
+    width: 15%;
+    height: 3px;
+    margin-top: 10px;
+    background: #FB2056;
+    margin: 10px 0px;
+}
+
+/***********************
+services2 section css code
+************************/
+.Services2{
+	color: white;
+	text-align: left;
+	padding: 200px 0px 0px 800px;
+    margin: 70px 0px -260px -100px;
+}
+
+.Services2 h4{
+	margin: 20px 0px;
+	color: white;
+}
+
+
+/***********************
+banner section css code
+************************/
+
+.destination-sectin {
+    width: 100%;/
+    overflow: hidden;
+    /   margin: 10px 20px;/
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.destination-title {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0px;
+
+
+}
+
+.destination-title .div1 {
+    width: 31%;
+    float: left;
+
+}
+
+.div1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+ .bob3{
+    margin-top: 30px;
+    background-color: #FB2056;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    width: 40%;
+    padding: 12px 15px;
+    color: white;
+    border: none;
+}
+
+.destination-title .div2 {
+    width: 31%;
+    float: left;
+    /  padding-left: 20px;/
+    /    margin: 10px 0px;
+}
+
+.line2{
+    width: 15%;
+    height: 3px;
+    margin-top: 10px;
+    background: #FB2056;
+    margin: 10px 0px;
+}
+.destination-title .div3{
+    width: 35%;
+    float: right;
+   
+}
+
+
+/***********************
+footer section css code
+************************/
+
+.footer{
+	padding: 40px 0;
+	text-align: center;
+	color: white;
+	background: black;
+}
